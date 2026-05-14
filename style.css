@@ -95,3 +95,29 @@ background:#1ed760;
 .hero{
 background:linear-gradient(180deg,#1DB95422,#1E1E1E);
   }
+.menu{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#1E1E1E;
+display:flex;
+justify-content:space-around;
+padding:12px 0;
+border-top:1px solid #2a2a2a;
+}
+
+.menu a{
+color:#B3B3B3;
+text-decoration:none;
+text-align:center;
+font-size:18px;
+}
+
+.menu span{
+font-size:11px;
+}
+
+body{
+padding-bottom:100px;
+}
